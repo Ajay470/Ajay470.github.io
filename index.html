@@ -8,21 +8,160 @@
     <style>
         #navbar{
             width: 100%;
+            margin: 10px;
             height: 70px;
-            border: 1px solid red;
-            color: antiquewhite;
-            background-color: rgb(3, 3, 46);
+            border: 2px solid rgb(138, 104, 133);
+            color: rgb(51, 50, 48);
+            background-color: rgb(103, 103, 109);
         }
+
+        #top_img{
+              display: flex;
+
+              margin-bottom: 30px;
+        }
+
+        #top_img-left{
+            margin: 10px;
+        
+            width: 50%;
+            border: 2px solid rgb(138, 104, 133);
+            color: antiquewhite;
+            background-color: rgb(172, 172, 180);
+        }
+
+        #top_img-rigth{
+            margin: 10px;
+            
+            width: 50%;
+            height: 700px;
+            border: 2px solid rgb(138, 104, 133);
+            color: antiquewhite;
+            background-color: rgb(172, 172, 180);
+        }
+        #about{
+            width: 100%;
+            margin: 10px;
+            height: 300px;
+            border: 2px solid rgb(138, 104, 133);
+            color: antiquewhite;
+            background-color: rgb(103, 103, 109);
+
+        }
+
+        #sills{
+            width: 100%;
+            margin: 10px;
+            height: 300px;
+            border: 2px solid rgb(138, 104, 133);
+            color: antiquewhite;
+            background-color: rgb(103, 103, 109);
+
+        }
+        #project{
+            width: 100%;
+            margin: 10px;
+            height: 300px;
+            border: 2px solid rgb(138, 104, 133);
+            color: antiquewhite;
+            background-color: rgb(103, 103, 109);
+
+        }
+        #contact{
+            width: 100%;
+            margin: 10px;
+            height: 300px;
+            border: 2px solid rgb(138, 104, 133);
+            color: antiquewhite;
+            background-color: rgb(103, 103, 109);
+
+        }
+        
+    
+        @media all and (min-width: 10px) and (max-width: 699px) { 
+    /* STYLES HERE */
+
+    #top_img{
+              flex-direction: column;
+
+              margin-bottom: 30px;
+        }
+
+
+       #top_img-rigth{
+        width: 100%;
+        height: 200px;
+         
+
+        }
+        #top_img-left{
+            width: 100%;
+            height: 200px;
+
+         }
+
+      
+
+        }
+
+        @media all and (min-width: 700px) and (max-width: 1100px) { 
+    /* STYLES HERE */
+
+    #top_img{
+              flex-direction: column;
+
+              margin-bottom: 30px;
+        }
+
+
+       #top_img-rigth{
+        width: 100%;
+        height: 300px;
+        
+
+        }
+        #top_img-left{
+            width: 100%;
+            height: 300px;
+
+         }
+
+      
+
+        }
+
+
+
+      
     </style>
 </head>
 <body>
 
     <div id="navbar">
-        <h1>Let's start</h1>
+        <h1>Navbar</h1>
     </div>
 
-    <div id="top_img"></div>
- 
+    <div id="top_img">
+            <div id="top_img-left">Name</div>
+            <div id="top_img-rigth">Img</div>
+
+    </div>
+    <div id="about">
+        about
+       </div>
+
+   <div id="sills">
+    sills
+   </div>
+
+   <div id="project">
+    project
+   </div>
+
+   <div id="contact">
+    contact
+   </div>
+  
   
     
 </body>
