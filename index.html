@@ -7,12 +7,21 @@
     <title>Document</title>
     <style>
         #navbar{
+            display: flex;
+            gap: 30px;
             width: 100%;
             margin: 10px;
             height: 70px;
             border: 2px solid rgb(138, 104, 133);
             color: rgb(51, 50, 48);
             background-color: rgb(103, 103, 109);
+        }
+        #avtar{
+            width: 500px;
+            height: 500px;
+            border-radius: 300px;
+            padding-left: 100px;
+            padding-top: 100px;
         }
 
         #top_img{
@@ -130,6 +139,16 @@
 
         }
 
+        #top_img-rigth >h1{
+            color: rgb(94, 11, 29);
+            text-align: center;
+            font-size: 100px;
+        }
+        #top_img-rigth >h3{
+            color: rgb(49, 44, 45);
+            text-align: center;
+            font-size: 50px;
+        }
 
 
       
@@ -138,12 +157,20 @@
 <body>
 
     <div id="navbar">
-        <h1>Navbar</h1>
+        <h1>Home</h1>
+        <h1>About me</h1>
     </div>
 
     <div id="top_img">
-            <div id="top_img-left">Name</div>
-            <div id="top_img-rigth">Img</div>
+            <div id="top_img-left">
+
+                 <img id="avtar" src="/Ajay470.github.io/20220905_175506.jpg" alt="Ajay Img">
+
+            </div>
+            <div id="top_img-rigth">
+                <h1>Ajay Singh Shekhawat</h1>
+                <h3>Java backend developer</h3>
+            </div>
 
     </div>
     <div id="about">
