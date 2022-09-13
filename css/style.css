@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@400;500;800&display=swap'); */
+:root{
+  /*=======Main theme colors=======*/
+      --first-color:#0e2431;
+      --second-color:#6a59d1;
+      --third-color:#777;
+
+  
+      /*=======Hover colors=======*/
+  --hover-color:#614fd0;
+
+  /*=======Background colors=======*/
+  
+  --body-bg-color:#fefefe;
+  --card-bd-color:#fff;
+  --modal-bg-color:#fff;
+  --bg-transparent-color:rgba(0,0,0,0.1);
+  --transparent-color-01:rgba(0,0,0,0.1);
+  --transparent-color-02:rgba(106,89,209,0.1);
+  --line-color:#d7d7d7;
+
+  /*=======Color Filter=======*/
+--color-filter:invert(1);
+  /*=======Box shadow=======*/
+--box-shadow:0px 0px 20px rgb(0 0 0 /10%);
+  /*=======Font size=======*/
+
+  --small-font-size:0.9em;
+  --normal-font-size:1em;
+
+  /*=======Scroll bar colors=======*/
+  --scroll-bar-color:#c5cadf;
+  --scroll-thumb-color:#70768a;
+  --scroll-thumb-hover-color:#454f6b;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  color: var(--first-color);
+  background-color: var(--body-bg-color);
+  margin: 2rem 0 0 0;
+  transition: .5s ease;
+}
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+/*=======Scroll to top button=======*/
+
+/*=======Light/Dark theme button=======*/
+
+/*=======Scroll bar=======*/
+
+/*=======Header=======*/
+header{
+  z-index: 9999;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(20px);
+  transition: .6s ease;
+}
+
+.nav-bar{
+  position: relative;
+  height: calc(4rem +1rem);
+  max-width: 1250;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  transition: .6s ease;
+}
+
+.nav-bar .logo{
+  color:var(--first-color) ;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.nav-items a{
+       color:var(--first-color);
+       font-size: var(--normal-font-size);
+       font-weight: 500;
+}
+
+.nav-items a:not(:last-child){
+  margin-right: 50px;
+}
+
+.nav-items a:hover{
+  color: var(--second-color);
+}
+/*=======Home section=======*/
+
+/*=======Common styles for all sections=======*/
+
+/*=======About section=======*/
+
+/*=======Skills section=======*/
+
+/*=======Services section=======*/
+
+/*=======Portfolio section=======*/
+
+/*=======Get-in-touct=======*/
+
+/*=======Our Clients=======*/
+
+/*=======Contact section=======*/
+
+/*=======Footer=======*/
+
+/*=======Media query max-width 1070px=======*/
+@media screen and (max-width: 1070px){
+  /*=======Header navigation menu=======*/
+
+  /*=======Home section=======*/
+
+  /*=======About section=======*/
+
+  /*=======Get-in-touct=======*/
+
+  /*=======Our clients=======*/
+
+  /*=======Contact section=======*/
+
+  /*=======Footer=======*/
+}
+
+/*=======Media query max-width 730px=======*/
+@media screen and (max-width: 730px){
+  /*=======Common styles for all sections=======*/
+
+  /*=======Home section=======*/
+
+  /*=======Get-in-touch section=======*/
+}
