@@ -10,6 +10,9 @@
   <body>
 
     <!--=======Scroll to top button=======-->
+    <div class="scrollToTop-btn flex-center">
+      <i class="fas fa-arrow-up"></i>        
+    </div>
 
     <!--=======Light/Dark theme button=======-->
 
@@ -19,19 +22,21 @@
 <a href="#" class="logo">Ajay</a>
 <div class="navigation">
   <div class="nav-items">
-    <a href="#home"  >Home</a>
+    <div class="nav-close-btn"></div>
+    <a class="active" href="#home"  >Home</a>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <!-- <a href="#services">Services</a> -->
-    <a href="Contact">Contact</a>
+    <a href="#contact">Contact</a>
   </div>
 </div>
+<div class="nav-menu-btn"></div>
   </div>
 </header>
     <!--=======Home section=======-->
 
     <section class="home flex-center" id="home">
-      <div class="home-cointainer">
+      <div class="home-container">
         <div class="media-icons">
           <a href="https://github.com/Ajay470"><i class="fa-brands fa-github"></i>
           <a href="https://www.linkedin.com/in/ajay-singh-shekhawat-074724117"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -44,7 +49,7 @@
           <a href="" class="btn">Contact me <i class="fas fa-arrow-circle-right"></i> </a>
         </div>
         <div class="home-img">
-           <img src="images/PicsArt_09-13-09.58.40.png" alt="" style="width: 500px ;">
+           <img src="images/PicsArt_09-13-09.58.40.png" alt="" >
         </div>
       </div>
       <a href="#about" class="scroll-down">Scroll Down <i class="fas fa-arrow-down"></i> </a>
@@ -57,7 +62,7 @@
     <h2 class="section-title-02">About Me</h2>
     <div class="content flex-center">
       <div class="about-img">
-        <img src="images/pexels-christina-morillo-1181298.jpg" alt="" style="width:100px ;">
+        <img src="images/pexels-christina-morillo-1181298.jpg" alt="" >
       </div>
       <div class="about-info">
         <div class="description">
@@ -180,7 +185,7 @@
               </ul>
             </div>
           </div>
-          <div class="skills-description">
+          <div class="skills-description" id="work">
             <h3>Work & Experience</h3>
           </div>
           <div class="skills-info">
@@ -213,19 +218,19 @@
         <h1 class="section-title-01">Contact Me</h1>
         <h2 class="section-title-02">Contact Me</h2>
         <div class="content">
-          <div class="content-left">
+          <div class="contact-left">
             <h2>Let's discuss your project</h2>
-            <ul class="contact-list">
+            <ul class="contact-list"> 
               <li>
-                <h3 class="item-title"><i class="fas fa-phone">Phone</i></h3>
+                <h3 class="item-title"><i class="fas fa-phone"></i>Phone</h3>
                 <span>+91 887 575 1136</span>
               </li>
               <li>
-                <h3 class="item-title"><i class="fas fa-envelope">Email Address</i></h3>
+                <h3 class="item-title"><i class="fas fa-envelope"></i>Email Address</h3>
                 <span><a href="mailto:singhajay470@gmail.com">singhajay470@gmail.com</a></span>
               </li>
               <li>
-                <h3 class="item-title"><i class="fas fa-map-marker-alt">Address</i></h3>
+                <h3 class="item-title"><i class="fas fa-map-marker-alt"></i>Address</h3>
                 <span>Jaipur Rajsthan.</span>
               </li>
             </ul>
@@ -242,7 +247,7 @@
               <input type="text" placeholder="Subject">
             </div>
             <div class="third-row">
-              <textarea name="message" id="" cols="30" rows="10"></textarea>
+              <textarea name="message" id=""  rows="7" placeholder="Message"></textarea>
             </div>
             <button class="btn" type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
            </form>
@@ -251,6 +256,38 @@
       </div>
      </section>
     <!--=======Footer=======-->
+        <footer>
+          <div class="footer-container">
+            <div class="about group">
+              <h2>Ajay</h2> 
+              <p>Back-end Developer</p>
+              <a href="#about">About Me</a>
+          </div>
+          <div class="hr"></div>
+          <div class="info group">
+            <h3>More</h3>
+            <ul>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#work">Experience</a></li>
+              <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="hr"></div>
+          <div class="follow group">
+            <h3>Follow</h3>
+            <ul>
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copyright group">
+          <p>© 2021 by Ajay Singh. All rights reserved.</p>
+        </div>
+        </footer>
+
 
     <!--=======External scripts=======-->
 
