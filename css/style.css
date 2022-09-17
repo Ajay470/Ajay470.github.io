@@ -549,6 +549,79 @@ width: 95%;
 /*=======Services section=======*/
 
 /*=======Portfolio section=======*/
+.our-client .container{
+  flex-direction: column;
+}
+
+.our-client .container .content{
+  width: 100%;
+}
+
+.client-swiper .swiper-wrapper{
+  margin-bottom: 30px;
+}
+
+.client-swiper .swiper-slide{
+  gap: 50px;
+  margin: 20px 0;
+}
+
+.client-img{
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.client-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.client-details{
+  max-width: 500px;
+}
+
+.client-details p{
+  font-size: 1.2em;
+  color: var(--third-color);
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid var(--line-color);
+}
+
+.client-details h3{
+  color: var(--first-color);
+  font-size: 1.5em;
+}
+
+.client-details span{
+  color: var(--third-color);
+  font-size: 1.1em;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  content: '';
+}
+
+.swiper-button-next, .swiper-button-prev{
+  color: var(--second-color);
+  font-size: 3em;
+}
+
+.swiper-pagination-bullet, .swiper-pagination-bullet-active{
+  background: var(--second-color);
+}
+
+
+
+.pro-icon{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
 
 /*=======Get-in-touct=======*/
 
@@ -670,9 +743,9 @@ footer a{
 .footer-container .about h2{
   font-size: 3em;
   font-weight: 600;
-  background: linear-gradient(to top, transparent 0%, #fff 50%);
-  -wibkit-background-clip:text;
-  -wibkit-text-fill-color:transparent;
+  background: linear-gradient(to top, transparent 0%,#fff 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   opacity: .8;
 }
 
@@ -710,7 +783,7 @@ footer a{
   margin: 20px;
 }
 
-footer-copyright p{
+.footer-copyright p{
   font-size: var(--normal-font-size);
   font-weight: 300;
   margin-top: 50px;
@@ -915,7 +988,7 @@ footer-copyright p{
 
   .home-container .home-img img{
     width: 65%;
-    transform: translate(80px -180px);
+    transform: translate(80px, -180px);
   }
 
   .home .home-container .info{
