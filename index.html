@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+ 
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+ />
+ 
   </head>
   <body>
 
@@ -298,6 +304,13 @@
       <!--=======Get-in-touct=======-->
       
       <!--=======Our Clients=======-->
+      <section class="skills section" id="skills">
+        <div class="calendar" >
+          <!-- Loading stuff -->
+          Loading the data just for you.
+      </div>
+        </section>
+     
 
      <!--=======Contact section=======-->
      <section class="contact section" id="contact">
@@ -381,3 +394,12 @@
     <script src="js/main.js"></script>
   </body>
 </html>
+
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+<script>
+  GitHubCalendar(".calendar", "Ajay470");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "Ajay470", { responsive: true });
+</script>
