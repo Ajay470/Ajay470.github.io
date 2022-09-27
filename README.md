@@ -11,7 +11,7 @@
 
 
 <h3 align="center"> Project</h3>
-<h4 align="center"> Licious is the first fresh meat brand in India. My team and I made a perfect replica of their website.</h4>
+<h4 align="center"> Its my Complete Portfolia website.</h4>
 
 <br><hr>
 <br>
