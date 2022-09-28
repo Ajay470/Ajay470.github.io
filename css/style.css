@@ -546,7 +546,52 @@ width: 95%;
 .edu-list .item:hover, .bar:hover, .experience-card:hover{
   transform: scale(1.03);
 }
-/*=======Services section=======*/
+/*=======Statistics section=======*/
+.services .container .content{
+  width: 100%;
+}
+
+.services-description h3{
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.service-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px,1fr));
+  max-width: 0 auto;
+  gap: 20px;
+}
+
+.service-card{
+  background: var(--card-bg-color);
+  border-bottom: 3px solid var(--second-color);
+  padding: 50px;
+  border-radius: 6px;
+  box-shadow: var(--box-shadow);
+}
+
+.service-card i{
+  color: var(--second-color);
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+.service-card h3{
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+/* .service-card .learn-more-btn{
+  color: var(--third-color);
+  cursor: pointer;
+  transition: .3s ease;
+} */
+
+
+
 
 /*=======Portfolio section=======*/
 .our-client .container{
@@ -625,7 +670,11 @@ width: 95%;
 
 /*=======Get-in-touct=======*/
 
-/*=======Our Clients=======*/
+/*=======Our Clients     section=======*/
+
+
+
+
 
 /*=======Contact section=======*/
 .contact .container .content{
