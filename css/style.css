@@ -486,6 +486,8 @@ color: var(--second-color);
 
 
 
+
+
 @media (min-width: 350px) {
   .service-list1  { grid-template-columns: repeat(2, 1fr); }
  
@@ -521,7 +523,7 @@ color: var(--second-color);
   padding: 10px;
   border-radius: 6px;
   width: 150px;
-  
+  text-align: center;
   box-shadow: var(--box-shadow);
 }
 
@@ -537,7 +539,7 @@ color: var(--second-color);
 
 .service-card1  img{
   /* width: 100%; */
-  padding-left: 22px;
+  /* padding-left: 22px; */
   padding-top: 5px;
   height: 100px;
   background: white;
@@ -573,29 +575,26 @@ color: var(--second-color);
 .service-card{
   background: var(--card-bg-color);
   border-bottom: 3px solid var(--second-color);
-  padding: 50px;
+  padding: 20px;
   border-radius: 6px;
+  text-align: center;
   box-shadow: var(--box-shadow);
 }
 
-.service-card i{
+.service-card img{
   color: var(--second-color);
   font-size: 3em;
-  margin-bottom: 30px;
+height: 150px;
+  margin-bottom: 15px;
 }
 
 .service-card h3{
   font-size: 1.5em;
   font-weight: 700;
   line-height: 30px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
-/* .service-card .learn-more-btn{
-  color: var(--third-color);
-  cursor: pointer;
-  transition: .3s ease;
-} */
 
 
 
@@ -619,6 +618,7 @@ color: var(--second-color);
   .pcard{
 
        display: flex;
+       text-align: center;
       flex-direction: column;
   }
  
@@ -680,19 +680,6 @@ color: var(--second-color);
   color: var(--third-color);
   font-size: 1.1em;
 }
-
-/* .swiper-button-next:after, .swiper-button-prev:after{
-  content: '';
-}
-
-.swiper-button-next, .swiper-button-prev{
-  color: var(--second-color);
-  font-size: 3em;
-}
-
-.swiper-pagination-bullet, .swiper-pagination-bullet-active{
-  background: var(--second-color);
-} */
 
 
 
